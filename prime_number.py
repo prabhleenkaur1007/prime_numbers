@@ -15,8 +15,7 @@ def prime_num(num):
                 break
         else:
             return ("it is a prime number")
-    #else:
-    #    return ("not a prime number")
+ 
 a=int(input ("enter a number: "))
 b= prime_num(a)
 print (b)
